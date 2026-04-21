@@ -11,7 +11,10 @@ public:
     virtual double squareRectangle(double a, double b) {
     return a * b;
 }
-    virtual double squareTriangle(double a, double h) { return 0; }  // Учасник 3
+    virtual double squareTriangle(double a, double h) {
+        return 0.5 * a * h;
+    }   // Учасник 3
+
     virtual double squareTrapezoid(double a, double b, double h) { return 0; } // Учасник 4
 };
 
@@ -23,5 +26,8 @@ int main() {
 
     // Перевірка Стаса
     std::cout << "Rectangle Area (5x4): " << calc.squareRectangle(5, 4) << std::endl;
+
+    // Функціонал Дениса
+    std::cout << "Triangle Area (a=6, h=3): " << calc.squareTriangle(6, 3) << std::endl;
     return 0;
 }
