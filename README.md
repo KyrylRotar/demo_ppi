@@ -4,11 +4,11 @@
 
 -KyrylRotar - Team Lead 
 
--Reaper90053
+-Garbus Stas
 
--
+-Mostoviy Denis
 
--
+-Kudrik Illia 
 
 ##essence
 
