@@ -15,7 +15,7 @@ public:
 
 int main() {
     GeometryCalc calc;
-    std::cout << "--- Geometry Calculator ---" << std::endl;
+    std::cout << "--- Geometry Calc by STAS ---" << std::endl;
     // Перевірка Стаса
     std::cout << "Rectangle Area (5x4): " << calc.squareRectangle(5, 4) << std::endl;
     return 0;
