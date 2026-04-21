@@ -4,7 +4,9 @@
 class GeometryCalc {
 public:
 
-    virtual double squareCircle(double r) { return 0; }    // Учасник 1
+    virtual double squareCircle(double r) {
+        return M_PI * std::pow(r, 2);
+    }   // Учасник 1
 
     virtual double squareRectangle(double a, double b) {
     return a * b;
@@ -15,7 +17,10 @@ public:
 
 int main() {
     GeometryCalc calc;
-    std::cout << "--- Geometry Calc by STAS ---" << std::endl;
+    std::cout << "Geometry Calculator by Stas and Kyryl";
+    // Функціонал Кирила
+    std::cout << "Circle Area (r=5): " << calc.squareCircle(5) << std::endl;
+
     // Перевірка Стаса
     std::cout << "Rectangle Area (5x4): " << calc.squareRectangle(5, 4) << std::endl;
     return 0;
