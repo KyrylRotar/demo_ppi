@@ -5,7 +5,10 @@ class GeometryCalc {
 public:
 
     virtual double squareCircle(double r) { return 0; }    // Учасник 1
-    virtual double squareRectangle(double a, double b) { return 0; } // Учасник 2
+
+    virtual double squareRectangle(double a, double b) {
+    return a * b;
+}
     virtual double squareTriangle(double a, double h) { return 0; }  // Учасник 3
     virtual double squareTrapezoid(double a, double b, double h) { return 0; } // Учасник 4
 };
@@ -13,6 +16,7 @@ public:
 int main() {
     GeometryCalc calc;
     std::cout << "--- Geometry Calculator ---" << std::endl;
-    // Сюди учасники будуть додавати виклик своїх методів
+    // Перевірка Стаса
+    std::cout << "Rectangle Area (5x4): " << calc.squareRectangle(5, 4) << std::endl;
     return 0;
 }
