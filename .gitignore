@@ -1,4 +1,17 @@
+# Результати компіляції (виконувані файли та об'єктні файли)
 *.exe
 *.o
+*.out
+
+# Папки збірки (наприклад, для CMake)
 /build/
+/cmake-build-debug/
+/cmake-build-release/
+
+# Специфічні файли IDE (CLion, VS Code)
+.idea/
 .vscode/
+
+# Тимчасові файли ОС
+Thumbs.db
+.DS_Store
