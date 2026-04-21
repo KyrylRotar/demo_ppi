@@ -1,5 +1,4 @@
 # demo_ppi
-learning progect
 
 ##team members
 
@@ -12,4 +11,5 @@ learning progect
 -
 
 ##essence
+
 Team Modular Calculator — це об'єктно-орієнтований консольний застосунок для виконання математичних обчислень, розроблений групою спеціалістів з розподілом ролей.
