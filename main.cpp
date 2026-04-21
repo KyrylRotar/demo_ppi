@@ -17,7 +17,7 @@ public:
 
 int main() {
     GeometryCalc calc;
-    std::cout << "--- Geometry Calculator ---" << std::endl;
+    std::cout << "--- Calculator by Kyryl ---" << std::endl;
 
     // Функціонал Кирила
     std::cout << "Circle Area (r=5): " << calc.squareCircle(5) << std::endl;
