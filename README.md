@@ -2,9 +2,9 @@
 
 ##team members
 
--KyrylRotar - Team Lead 
+-Rotar Kyryl - Team Lead 
 
--Garbus Stas
+-Garbuz Stas
 
 -Mostoviy Denis
 
